@@ -45,3 +45,4 @@ app.listen(process.env.PORT, () => {
   // db.sequelize.sync({ alter: true });
   console.log(`server is running on port ${process.env.PORT}`);
 });
+module.exports = app;
