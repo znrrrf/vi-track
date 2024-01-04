@@ -41,7 +41,7 @@ app.use("/branch", branchRouters);
 app.use("/type", typeRouters);
 app.use("/movement", movementRouters);
 
-app.listen(process.env.PORT, () => {
+app.listen(1000, () => {
   // db.sequelize.sync({ alter: true });
   console.log(`server is running on port ${process.env.PORT}`);
 });
