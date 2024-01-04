@@ -43,6 +43,6 @@ app.use("/movement", movementRouters);
 
 app.listen(1000, () => {
   // db.sequelize.sync({ alter: true });
-  console.log(`server is running on port ${process.env.PORT}`);
+  console.log(`server is running on port 1000`);
 });
 module.exports = app;
